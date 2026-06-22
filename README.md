@@ -45,20 +45,13 @@ An enterprise AI platform built for industrial EV ecosystems. This platform brid
    git clone https://github.com/Kundanaa/ET_AI_Hackathon
    cd ev-cell-to-wheel-intelligence
 ```
-###Install dependencies:
+### Install dependencies:
 
 ```Bash
 
    pip install -r requirements.txt
 ```
 
-### Synthesize data and train models: Run your generator and training pipeline to populate local data storage:
-
-```Bash
-
-   python data_generation.py
-   python ml_pipeline.py
-```
 ### Launch the Control Tower Dashboard: Configure your Google AI Studio API key inside app.py under the AI Agent configuration section, then boot up the interface:
 
 ```Bash
